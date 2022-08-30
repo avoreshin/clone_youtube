@@ -1,6 +1,10 @@
 import { Box } from "@mui/material";
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-
+import Feed from './components/Feed'
+import Navbar from './components/Navbar'
+import VideoDetail from './components/VideoDetail'
+import ChanelDetail from './components/ChanelDetail'
+import SearchFeed from './components/SearchFeed'
 
 
 function App() {
@@ -17,6 +21,6 @@ function App() {
     </Box>
     </BrowserRouter>
   );
-}
+ }
 
 export default App;
